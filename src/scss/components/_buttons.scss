@@ -1,0 +1,37 @@
+.btn{
+    display          : inline-block;
+    padding          : .5em 1em;
+    color            : #FFF;
+    cursor           : pointer;
+    text-decoration  : none;
+    transition       : transform .05s;
+    text-align       : center;
+    user-select      : none;
+  
+    &:hover {
+      text-decoration  : inherit;
+    }
+  
+    &:active {
+      transform : scale(.99)
+    }
+  
+ }
+ .buttons{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .btn-fll{
+  background: $color-full;
+  width: 60%;
+  font-weight: bold; 
+  font-size: 21px;  
+}
+.link{
+  background: $color-show;
+  font-size: 14px;
+  width: 25%;
+  font-weight: 400;
+}

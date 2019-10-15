@@ -1,0 +1,43 @@
+.content-slider{
+    background: $color-content;
+    height: 450px;
+    width: 580px;
+    padding: 3.5em;
+    color: white;
+    .title{
+        margin-bottom: 2em;
+        text-align: center;
+        line-height: 2em;
+    }
+    .slider{
+        background: $color-slider;
+        padding: 2em;
+        span{
+            color: white;
+        }
+        
+    }
+    .imput{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1em;
+    }
+    .range{
+        width: 90%;
+        margin: auto;
+        
+    }
+    
+}
+
+.total{
+    background: $color-total;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em 1em;
+}
+.content{
+    margin-bottom: 2em;
+}

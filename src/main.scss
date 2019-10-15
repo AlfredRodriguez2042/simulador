@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+@import './scss/base';
+@import './scss/variables';
+
+
+@import './scss/components/form';
+@import './scss/components/inputs';
+@import './scss/components/buttons';
